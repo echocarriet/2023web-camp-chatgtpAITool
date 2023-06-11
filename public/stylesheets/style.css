@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('https://github.com/echocarriet/2023web-camp-chatgtpAITool/blob/main/public/stylesheets/images/dolaWallpaper.jpg?raw=true') no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height:100vh;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+.card {
+  border-radius: 16px;
+  background-color: rgba(75, 165, 238, .9);
+  border: 5px solid #387cb3;
+  padding: 32px 24px; 
+}
+.card-img {
+  width: 150px;
+  height: auto;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+.card-text {
+  font-size: 40px;
+}
+.card-input {
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-right: 8px;
+  border: none;
+  width: 250px;
+}
+.card-btn {
+  background-color: #ffce45;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.card-btn:hover {
+  opacity: .8;
+}

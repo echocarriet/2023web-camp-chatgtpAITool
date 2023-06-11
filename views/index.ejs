@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 小工具</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body class="body">
+  <form action="/" method="post">
+    <div class="card">
+      <img
+        src="https://github.com/echocarriet/2023web-camp-chatgtpAITool/blob/main/public/stylesheets/images/dola_logo.png?raw=true"
+        alt="dola_logo" class="card-img">
+      <h1 class="card-title">多啦 A 夢百寶袋</h1>
+      <p>出事啦，多啦A夢！快拿出道具幫幫我</p>
+      <p class="card-text">
+        <% if (description.length) { %>
+          <%= description %>
+        <% } else { %>
+          <%= '???' %>
+        <% } %>
+      </p>
+      <input type="text" name="description" class="card-input" placeholder="請填寫遇到的突發狀況 e.g.遇到蟑螂" />
+      <button type="submit" class="card-btn">送出</button>
+    </div>
+  </form>
+</body>
+
+</html>
